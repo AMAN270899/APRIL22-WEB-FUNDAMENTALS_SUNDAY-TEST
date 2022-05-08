@@ -1,0 +1,159 @@
+.navbar{
+    
+     position: fixed;
+     top: 0%;
+    box-shadow: 0px 0px 8px rgb(0 0 0 / 6%);
+    width: 100%;
+    background-color: #fff;
+    
+    
+
+}
+
+ul{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    margin-top: 0%;
+}
+li{
+    float: left;
+}
+li a{
+    text-decoration: none;
+    padding: 25px;
+    display: flex;
+    align-items: flex-end;
+    color: black;
+    
+}
+.container{
+    width: 100%;
+    margin:0%,2%;
+    padding: 6%,0%;
+}
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    background-color:cadetblue
+
+}
+.banner.image img{
+    width: 100%;
+    
+    
+    
+    
+}
+.banner .content {
+    font-family: "Lato", sans-serif;
+    padding: 25% 4%;
+    text-align:center;
+  }
+.content .title{
+    font-size: 50px;
+}
+.content .title span {
+    font-weight: 800;
+}
+.content .description{
+    font-size: 25px;
+    
+}
+.content .btn{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: antiquewhite;
+}
+
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.about .image img{
+    width:70%;
+    margin-left: 10%;
+    margin-top: 8%;
+    
+    
+}
+
+.about .content {
+    font-family: "Lato", sans-serif;
+    padding: 20%,15%;
+}
+
+.about .content .title {
+    font-size: 30px;
+    text-decoration: underline;
+}
+.about .content .description {
+    font-size: 20px;
+    font-weight: 100;
+}
+.container-skills .content {
+    font-family: "Lato", sans-serif;
+    padding: 2% 13%;
+    background-color: cadetblue;
+}
+.content .title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 35px;
+}
+.content .gridcontainer {
+    font-size: 18px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    justify-items: center;
+}
+.gridcontainer .grid-item {
+    margin-top: 20px;
+
+  border:  1px solid #ddd;
+  padding: 7% 6%;
+  border-bottom: 5px solid #6b8363;
+  background-color: #fff;
+  border-radius: 8px;
+}
+.contact{
+font-family:  "Lato", sans-serif;
+display:grid;
+grid-template-columns: repeat(2,50%);
+}
+
+.contact .image img{
+
+    width:70%;
+    margin-left: 10%;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    
+}
+.content .title {
+    font-size: 20px;
+    text-decoration: underline;
+    
+
+}
+
+.thanks{
+    padding: 50px;
+    font-family:  "Lato", sans-serif;
+    color:bisque ;
+    background-color: cadetblue;
+
+
+}
+
+.thanks .content{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+
+
+
+
+
