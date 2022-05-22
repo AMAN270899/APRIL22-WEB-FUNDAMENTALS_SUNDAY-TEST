@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&display=swap");
+
+:root{
+    --off-canvas-width:270px;
+    --topnavbarheight:56px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.offcanvas{
+    background-color: dodgerblue;
+    color: white;
+}
+.side-navbar{
+    width: var(--off-canvas-width);
+}
+.divider{
+    width: var(--off-canvas-width);
+}
+
+
+
+
+
+@media (min-width:992px) {
+     body{
+         overflow: auto !important;
+     }
+
+     .side-navbar{
+
+        transform: none !important;
+        visibility: visible !important;
+        top: var(--topnavbarheight);
+        height: calc(100%-var(--topnavbarheight));
+     }
+
+     main{
+         margin-left: var(--off-canvas-width);
+     }
+     
+}
